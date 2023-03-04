@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,235 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+	font-size: 80px;
+	color: #FCFCF5;
+	font-family: 'Alata', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(236, 206, 150);
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:35px;
+}
+
+h3 {
+	font-size: 50px;
+	color: #a3b9c9;
+	font-family: 'Alata', sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+h4 {
+	font-size: 50px;
+	color: #a3b9c9;
+	font-family: 'Alata', sans-serif;
+	margin-bottom: 30px;
+}
+
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(233, 201, 143);
+	text-align: center;
+	font-size:30px;
+	margin: 20px 0px;
+}
+
+h6 {
+	font-size: 18px;
+	font-family: 'Spectral', serif;
+	margin: 20px 5%;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Spectral', serif;
+	display: flex;
+}
+
+.nav-style {
+  background-color: rgb(236, 206, 150);
+  box-shadow: 5px 10px 18px #888888;
+  /* font-size: 20px; */
+}
+
+.nav-link {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.logo {
+	font-size: 100px;
+	text-shadow: 2px 2px #a3b9c9;
+	font-family: 'Yeseva One', cursive;
+}
+
+/* Home Section */
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 98vh;
+	text-align: center;
+	background: linear-gradient(-45deg, #85afce, #a3b9c9, #a29fda);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	color: #FCFCF5;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.icon {
+  margin: 0px 20px;
+  color: black;
+  transform: scale(2);
+}
+
+.icon:hover {
+  margin: 0px 20px;
+  color: black;
+  transition: transform .2s;
+  transform: scale(2.5);
+}
+
+/* About Me Section */
+#about {
+	padding: 10% 0%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-content {
+  display: inline-block;
+	/* display: flex;
+	flex-direction: row;
+  justify-content: center;
+  margin: 0% 10% 3% 10%;
+	align-items: center;
+  flex-wrap: wrap; */
+  /* display: inline-block; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  width: 50%; 
+}
+
+.prof-pic {
+  display: inline;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 7px solid rgb(236, 206, 150);
+	margin-right: 60px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+  
+}
+
+.resume-button {
+	color: #a3b9c9;
+	border: 3px solid #a3b9c9;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 50px;
+	font-family: 'Alata', sans-serif;
+	font-size: 18px;
+	position: absolute;
+	text-align: center;
+}
+
+.resume-button:hover {
+	background-color: #a3b9c9;
+	border-color: #a3b9c9;
+	color: #FCFCF5;
+	text-align: center;
+}
+
+/* Projects Section */
+#projects {
+	padding: 10vh 0px;
+}
+
+#project-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 3.5% 30px 3.5%;
+	text-align: center;
+	width: 500px;
+	background-color: #85b0ce25;
+	box-shadow: 5px 10px 18px #888888b4;
+}
+
+.project-pic {
+	width: 450px;
+	height: 350px;
+	object-fit: cover;
+	box-shadow: 5px 10px 18px #888888a6;
+}
+
+.project-pic:hover {
+	transition: transform .3s;
+	transform: scale(1.02);
+}
+
+/* Footer */
+#footer-section {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: rgb(236, 206, 150);
+	text-align: center;
+	height: 80px;
+	padding: 15px 0px 0px 0px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+#footer-section p{
+	color: black;
+	font-size: 17px;
+	line-height:20px;
+	padding-left:2%;
 }

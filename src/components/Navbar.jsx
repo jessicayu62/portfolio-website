@@ -31,17 +31,22 @@ export default function Navigation() {
     //     href: '#contact',
     //   },
     // ]
-  
+
     return (
-        <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+        <Navbar className="nav-style" collapseOnSelect sticky="top">
+            <Container>
+                <Navbar.Brand href="#home" className="logo">JY</Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse className="justify-content-end">
+                    <Nav>
+                        <Nav.Link href="#about" className="nav-option">About</Nav.Link>
+                        <Nav.Link href="#experience" className="nav-option">Experience</Nav.Link>
+                        <Nav.Link href="#projects" className="nav-option">Projects</Nav.Link>
+                        <Nav.Link href="#skills" className="nav-option">Skills</Nav.Link>
+                        <Nav.Link href="#contact" className="nav-option">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
-  }
+}
