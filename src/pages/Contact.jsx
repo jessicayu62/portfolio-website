@@ -1,24 +1,37 @@
 import React from "react"
+import { FaGithub, FaLinkedin, FaReact, FaHeart } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 export default function Contact() {
     return (
         <div id="contact">
-            <h3>Contact Me</h3>
-            <div id="contact-logos">
-                {/* <a href="mailto:jessicayu62@gmail.com" target="_blank"><img src="assets/icons/email.png"
-						alt="email logo" class="img-fluid sizing" id="email"></a>
-				<a href="https://www.linkedin.com/in/jessicayu62/" target="_blank"><img src="assets/icons/linkedin.png"
-						alt="linkedin logo" class="img-fluid sizing" id="linkedin"></a>
-				<a href="https://github.com/jessicayu62" target="_blank"><img src="assets/icons/github.png"
-						alt="github logo" class="img-fluid sizing" id="github"></a> */}
+            <div class="section-container">
+                <div id="contact-content">
+                    <h3>Contact Me</h3>
+                    <div class='social_icons'>
+                        <a href="https://www.linkedin.com/in/jessicayu62/" target="_blank" rel="noopener noreferrer" class='icon'>
+                            <FaLinkedin />
+                        </a>
+                        <a href="https://github.com/jessicayu62" target="_blank" rel="noopener noreferrer" class='icon'>
+                            <FaGithub />
+                        </a>
+                        <a href="mailto:jessicayu62@gmail.com" target="_blank" rel="noopener noreferrer" class='icon'>
+                            <MdEmail />
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div id="footer-section">
-                <p>&lt;/&gt; with ♥</p>
+                <div>
+                    <a href="#home" class='up-arrow'>
+                        <BsFillArrowUpCircleFill />
+                    </a>
+                </div>
+                <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
                 <p id="footer-sub">© Jessica Yu 2023</p>
             </div>
         </div>
-
-
     )
 }

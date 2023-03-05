@@ -33,11 +33,11 @@ export default function Navigation() {
     // ]
 
     return (
-        <Navbar className="nav-style" collapseOnSelect sticky="top">
+        <Navbar className="nav-style" collapseOnSelect sticky="top" expand='sm'>
             <Container>
                 <Navbar.Brand href="#home" className="logo">JY</Navbar.Brand>
-                <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end">
+                <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+                <Navbar.Collapse className="responsive-navbar-nav justify-content-end">
                     <Nav>
                         <Nav.Link href="#about" className="nav-option">About</Nav.Link>
                         <Nav.Link href="#experience" className="nav-option">Experience</Nav.Link>

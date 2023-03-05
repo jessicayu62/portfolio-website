@@ -2,8 +2,10 @@ import React from "react"
 
 export default function Skills() {
     return (
-        <div>
-            <h1>Skills</h1>
+        <div id='skills'>
+            <div class="section-container">
+                <h3>Skills</h3>
+            </div>
         </div>
     )
 }
