@@ -8,7 +8,7 @@ export default function Contact() {
         <div id="contact">
             <div class="section-container">
                 <div id="contact-content">
-                    <h3>Contact Me</h3>
+                    <h4>Contact Me</h4>
                     <div class='social_icons'>
                         <a href="https://www.linkedin.com/in/jessicayu62/" target="_blank" rel="noopener noreferrer" class='icon'>
                             <FaLinkedin />
@@ -25,8 +25,8 @@ export default function Contact() {
 
             <div id="footer-section">
                 <div>
-                    <a href="#home" class='up-arrow'>
-                        <BsFillArrowUpCircleFill />
+                    <a href="#home">
+                        <BsFillArrowUpCircleFill className="up-arrow"/>
                     </a>
                 </div>
                 <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>

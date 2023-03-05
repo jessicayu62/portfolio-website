@@ -4,7 +4,7 @@ import profile from "../assets/prof_pic.JPG";
 export default function About() {
     return (
         <div id="about">
-            <div class="section-container">
+            <div class="section-container about-section">
                 <img src={profile} alt="Jessica Yu" class="rounded-circle prof-pic" />
 
                 <div class="about-content">

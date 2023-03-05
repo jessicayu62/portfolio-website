@@ -1,37 +1,6 @@
 import { Nav, Navbar, Container } from 'react-bootstrap'
 
 export default function Navigation() {
-    // const navItems = [
-    //   {
-    //     name: 'About',
-    //     href: '#about',
-    //   },
-    //   {
-    //     name: 'Education',
-    //     href: '#education',
-    //   },
-    //   {
-    //     name: 'Experience',
-    //     href: '#experience',
-    //   },
-    //   {
-    //     name: 'Skills',
-    //     href: '#skills',
-    //   },
-    //   {
-    //     name: 'Projects',
-    //     href: '#projects',
-    //   },
-    //   {
-    //     name: 'Achievements',
-    //     href: '#achievements',
-    //   },
-    //   {
-    //     name: 'Contact',
-    //     href: '#contact',
-    //   },
-    // ]
-
     return (
         <Navbar className="nav-style" collapseOnSelect sticky="top" expand='sm'>
             <Container>
