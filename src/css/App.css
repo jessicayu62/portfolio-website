@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
 
 /**
@@ -26,6 +26,12 @@ Cream: #FCFCF5
 	}
 }
 
+p {
+	font-size: 18px;
+	font-family: 'Spectral', serif;
+	display: flex;
+}
+
 h1 {
 	font-size: 70px;
 	color: #FCFCF5;
@@ -36,21 +42,18 @@ h1 {
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: rgb(236, 206, 150);
-	text-align: center;
 	font-size: 25px;
 }
 
-/* h3 {
-	font-size: 50px;
-	color: #a3b9c9;
-	font-family: 'Alata', sans-serif;
-	text-align: center;
-	margin-bottom: 50px;
-} */
+h3 {
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	padding-top: 3px;
+}
 
 
 h4 {
-	font-size: 40px;
+	font-size: 38px;
 	color: #a3b9c9;
 	font-family: 'Alata', sans-serif;
 	margin-bottom: 20px;
@@ -60,19 +63,13 @@ h5 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: rgb(233, 201, 143);
 	text-align: center;
-	font-size: 30px;
+	font-size: 28px;
 }
 
 h6 {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Spectral', serif;
 	margin: 5px 5%;
-}
-
-p {
-	font-size: 20px;
-	font-family: 'Spectral', serif;
-	display: flex;
 }
 
 .nav-style {
@@ -82,14 +79,16 @@ p {
 
 .nav-option {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 20px;
-	margin: 0px 5px;
+	font-size: 18px;
+	margin: 0px 3px;
 }
 
 .logo {
-	font-size: 25px;
+	font-size: 28px;
+	font-weight: bold;
 	text-shadow: 2px 2px #a3b9c9;
-	font-family: 'Yeseva One', cursive;
+	font-family: 'Yeseva One';
+	padding: 0px;
 }
 
 .section-container {
@@ -169,8 +168,6 @@ p {
 	display: inline-block;
 	width: 88vh;
 	padding-bottom: 60px;
-	/* margin: 0px 8vh; */
-	/* margin-left: 80px; */
 }
 
 .prof-pic {
@@ -201,6 +198,10 @@ p {
 /* Experience Section */
 #experience {
 	padding: 10vh 0px;
+}
+
+.date-styling {
+	font-family: 'Spectral', serif;
 }
 
 /* Projects Section */

@@ -29,22 +29,22 @@ export default function Experience() {
             icon: atlassianIcon,
             date: 'May - Aug 2023',
             title: 'Atlassian',
-            subtitle: 'Software Engineer Intern',
-            desc: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
+            subtitle: 'Incoming Software Engineer Intern',
+            desc: '• TBD ☺',
         },
         {
             icon: dispatchIcon,
             date: 'Jan - May 2023',
             title: 'Dispatch Technologies',
             subtitle: 'Software Engineer Co-op',
-            desc: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
+            desc: '• Implementing new web app features on the front-end using ReactJS based on provided design specifications',
         },
         {
             icon: mercariIcon,
             date: 'Jan - Aug 2022',
             title: 'Mercari',
             subtitle: 'Software Engineer Co-op',
-            desc: 'User Experience, Visual Design',
+            desc: '• Built and operationalized ETL pipelines for third-party data ingestion while collaborating closely with business stakeholders',
         },
     ];
 
@@ -64,15 +64,16 @@ export default function Experience() {
                                 contentStyle={contentStyle}
                                 contentArrowStyle={arrowStyle}
                                 date={t.date}
+                                dateClassName="date-styling"
                                 {...t.icon}
                             >
                                 {t.title ? (
                                     <React.Fragment>
-                                        <h3 className="vertical-timeline-element-title">{t.title}</h3>
+                                        <h2 className="vertical-timeline-element-title">{t.title}</h2>
                                         {t.subtitle && (
-                                            <h7 className="vertical-timeline-element-subtitle">
+                                            <h3 className="vertical-timeline-element-subtitle">
                                                 {t.subtitle}
-                                            </h7>
+                                            </h3>
                                         )}
                                         {t.desc && <p>{t.desc}</p>}
                                     </React.Fragment>
