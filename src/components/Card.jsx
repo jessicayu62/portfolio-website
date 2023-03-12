@@ -9,7 +9,7 @@ export default function Card({ image, title, description, link }) {
                 <Image fluid src={image} alt="Github project repo"
                     className="project-pic" />
             </a>
-            <h6>{description}</h6>
+            {description}
         </Container>
     )
 }

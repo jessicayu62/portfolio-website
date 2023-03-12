@@ -1,7 +1,6 @@
 import React from "react"
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import SocialIcons from "../components/SocialIcons"
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 
 export default function Home() {
     return (
@@ -10,17 +9,7 @@ export default function Home() {
                 <div class='home-content'>
                     <h1>Hello, I'm Jessica Yu.</h1>
                     <h2>BS Computer Science and Mathematics</h2>
-                    <div class='social_icons'>
-                        <a href="https://www.linkedin.com/in/jessicayu62/" target="_blank" rel="noopener noreferrer" class='icon'>
-                            <FaLinkedin />
-                        </a>
-                        <a href="https://github.com/jessicayu62" target="_blank" rel="noopener noreferrer" class='icon'>
-                            <FaGithub />
-                        </a>
-                        <a href="mailto:jessicayu62@gmail.com" target="_blank" rel="noopener noreferrer" class='icon'>
-                            <MdEmail />
-                        </a>
-                    </div>
+                    <SocialIcons />
                 </div>
                 <a href="#about" class='down-arrow'>
                     <BsFillArrowDownCircleFill />

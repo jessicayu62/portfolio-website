@@ -13,7 +13,7 @@ export default function About() {
                     <p>Hey! I'm a third-year at Northeastern University majoring in Computer Science and Mathematics. I
                         am seeking to broaden my technical knowledge by applying my in-class learning to real-life
                         experiences.
-                        
+
                         I enjoy seeing my programs come to life as I develop them into visually pleasing,
                         easy-to-use applications.
                     </p>

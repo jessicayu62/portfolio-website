@@ -138,22 +138,22 @@ export default function Skills() {
             <div class="section-container">
                 <h4>Skills</h4>
                 <div class="tabs-container">
-                <Tabs
-                    defaultActiveKey="languages"
-                    id="justify-tab-example"
-                    className="mb-3"
-                    justify
-                >
-                    <Tab eventKey="languages" title="Languages" tabClassName='tab'>
-                        <SkillsSection content={languages} />
-                    </Tab>
-                    <Tab eventKey="libraries" title="Libraries + Frameworks" tabClassName='tab'>
-                        <SkillsSection content={libraries_frameworks} />
-                    </Tab>
-                    <Tab eventKey="platforms" title="Platforms + Tools" tabClassName='tab'>
-                        <SkillsSection content={platforms_tools} />
-                    </Tab>
-                </Tabs>
+                    <Tabs
+                        defaultActiveKey="languages"
+                        id="justify-tab-example"
+                        className="mb-3"
+                        justify
+                    >
+                        <Tab eventKey="languages" title="Languages" tabClassName='tab'>
+                            <SkillsSection content={languages} />
+                        </Tab>
+                        <Tab eventKey="libraries" title="Libraries + Frameworks" tabClassName='tab'>
+                            <SkillsSection content={libraries_frameworks} />
+                        </Tab>
+                        <Tab eventKey="platforms" title="Platforms + Tools" tabClassName='tab'>
+                            <SkillsSection content={platforms_tools} />
+                        </Tab>
+                    </Tabs>
                 </div>
             </div>
         </div>

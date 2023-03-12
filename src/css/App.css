@@ -6,9 +6,8 @@
 
 /**
 Colors:
-Dark Orange: #FF9F55
 Blue: #a3b9c9;
-Light Orange: rgb(236, 206, 150);
+Orange: rgb(236, 206, 150);
 Cream: #FCFCF5
 **/
 
@@ -74,7 +73,7 @@ h6 {
 
 .nav-style {
 	background-color: rgb(236, 206, 150);
-	box-shadow: 5px 10px 18px #888888;
+	box-shadow: 5px 8px 12px #888888;
 	padding: 0px;
 }
 
@@ -167,6 +166,8 @@ h6 {
 
 .down-arrow:hover {
 	color: white;
+	transform: scale(2.5);
+	transition: transform .2s;
 }
 
 /* About Me Section */
@@ -387,6 +388,8 @@ h6 {
 
 .up-arrow:hover {
 	color: black;
+	transform: scale(2.5);
+	transition: transform .2s;
 }
 
 .arrow-button {

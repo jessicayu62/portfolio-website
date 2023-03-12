@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Button from 'react-bootstrap/Button';
-import { FaGithub, FaLinkedin, FaReact, FaHeart } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaReact, FaHeart } from "react-icons/fa";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import SocialIcons from "../components/SocialIcons"
 
 export default function Contact() {
     const form = useRef();
@@ -17,7 +17,7 @@ export default function Contact() {
             form.current,
             'lDWYwjV9CFRJOrQ12')
             .then((result) => {
-                window.alert("Message sent!")
+                window.alert("Thanks for reaching out! I will get back to you as soon as possible.")
             }, (error) => {
                 window.alert("Message failed to send, please try again.")
             });
@@ -35,27 +35,17 @@ export default function Contact() {
             <div class="section-container contact-section">
                 <h4>Contact</h4>
                 <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Let's get in touch!</h2>
-                <div class='social_icons'>
-                    <a href="https://www.linkedin.com/in/jessicayu62/" target="_blank" rel="noopener noreferrer" class='icon'>
-                        <FaLinkedin />
-                    </a>
-                    <a href="https://github.com/jessicayu62" target="_blank" rel="noopener noreferrer" class='icon'>
-                        <FaGithub />
-                    </a>
-                    <a href="mailto:jessicayu62@gmail.com" target="_blank" rel="noopener noreferrer" class='icon'>
-                        <MdEmail />
-                    </a>
-                </div>
+                <SocialIcons />
                 <div class="contact-content">
                     <form ref={form} onSubmit={sendEmail} className="contact-form">
                         <label className="form-label">Name</label>
-                        <input type="text" name="user_name" size={60} placeholder="Enter your name" />
+                        <input type="text" name="user_name" placeholder="Enter your name" />
                         <label className="form-label">Email</label>
                         <input type="email" name="user_email" placeholder="Enter your email" />
                         <label className="form-label">Message</label>
                         <textarea name="message" placeholder="Hello!" />
                         <div class="send-button">
-                            <input type="submit" value="Send Email" className="button-style" />
+                            <input type="submit" value="Send me an email" className="button-style" />
                         </div>
                     </form>
                 </div>
