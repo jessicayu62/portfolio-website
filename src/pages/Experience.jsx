@@ -4,9 +4,9 @@ import {
     VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import atlassian from "../assets/atlassian.png";
-import dispatch from "../assets/dispatch.webp";
-import mercari from "../assets/mercari.png";
+import atlassian from "../assets/icons/atlassian.png";
+import dispatch from "../assets/icons/dispatch.webp";
+import mercari from "../assets/icons/mercari.png";
 
 export default function Experience() {
     const atlassianIcon = {

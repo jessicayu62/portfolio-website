@@ -31,17 +31,14 @@ export default function Contact() {
                 </div>
             </div>
 
-            <div class="arrow-button">
-                <Button onClick={goToTop}>
-                    <BsFillArrowUpCircleFill className="up-arrow" />
-                </Button>
-            </div>
-
             <div id="footer-section">
-                <div class="footer-content">
-                    <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
-                    <p id="footer-sub">© Jessica Yu 2023</p>
+                <div class="arrow-button">
+                    <Button onClick={goToTop}>
+                        <BsFillArrowUpCircleFill className="up-arrow" />
+                    </Button>
                 </div>
+                <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
+                <p>© Jessica Yu 2023</p>
             </div>
         </div>
     )
