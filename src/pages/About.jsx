@@ -18,7 +18,7 @@ export default function About() {
                         easy-to-use applications.
                     </p>
                     <a href='https://drive.google.com/file/d/126385FcCSCoIQ4JZGJRlJ7vmF4WbN_Qw/view?usp=sharing' target="_blank"
-                        rel="noopener noreferrer" class="resume-button">Download Resume</a>
+                        rel="noopener noreferrer" class="button-style">Download Resume</a>
                 </div>
 
             </div>

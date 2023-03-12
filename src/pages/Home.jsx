@@ -1,6 +1,7 @@
 import React from "react"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 export default function Home() {
     return (
@@ -15,6 +16,9 @@ export default function Home() {
                         </a>
                         <a href="https://github.com/jessicayu62" target="_blank" rel="noopener noreferrer" class='icon'>
                             <FaGithub />
+                        </a>
+                        <a href="mailto:jessicayu62@gmail.com" target="_blank" rel="noopener noreferrer" class='icon'>
+                            <MdEmail />
                         </a>
                     </div>
                 </div>
