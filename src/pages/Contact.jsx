@@ -1,14 +1,22 @@
-import React from "react"
+import React from "react";
+import Button from 'react-bootstrap/Button';
 import { FaGithub, FaLinkedin, FaReact, FaHeart } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 export default function Contact() {
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <div id="contact">
             <div class="section-container">
                 <h4>Contact Me</h4>
-                <div id="contact-content">
+                <div class="contact-content">
                     <div class='social_icons'>
                         <a href="https://www.linkedin.com/in/jessicayu62/" target="_blank" rel="noopener noreferrer" class='icon'>
                             <FaLinkedin />
@@ -23,14 +31,17 @@ export default function Contact() {
                 </div>
             </div>
 
+            <div class="arrow-button">
+                <Button onClick={goToTop}>
+                    <BsFillArrowUpCircleFill className="up-arrow" />
+                </Button>
+            </div>
+
             <div id="footer-section">
-                <div>
-                    <a href="#home">
-                        <BsFillArrowUpCircleFill className="up-arrow" />
-                    </a>
+                <div class="footer-content">
+                    <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
+                    <p id="footer-sub">© Jessica Yu 2023</p>
                 </div>
-                <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
-                <p id="footer-sub">© Jessica Yu 2023</p>
             </div>
         </div>
     )

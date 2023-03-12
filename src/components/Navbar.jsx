@@ -1,11 +1,23 @@
 import { Nav, Navbar, Container } from 'react-bootstrap'
+import Button from 'react-bootstrap/Button';
 
 export default function Navigation() {
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <Navbar className="nav-style" collapseOnSelect sticky="top" expand='sm'>
             <Container>
-                <Navbar.Brand href="#home" className="logo">JY</Navbar.Brand>
-                <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+                <Navbar.Brand>
+                    <Button onClick={goToTop} className="logo">
+                        JY
+                    </Button>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse className="responsive-navbar-nav justify-content-end">
                     <Nav>
                         <Nav.Link href="#about" className="nav-option">About</Nav.Link>
