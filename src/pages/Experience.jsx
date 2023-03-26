@@ -69,7 +69,7 @@ export default function Experience() {
                             >
                                 {t.title ? (
                                     <React.Fragment>
-                                        <h2 className="vertical-timeline-element-title">{t.title}</h2>
+                                        <h7 className="vertical-timeline-element-title">{t.title}</h7>
                                         {t.subtitle && (
                                             <h3 className="vertical-timeline-element-subtitle">
                                                 {t.subtitle}
