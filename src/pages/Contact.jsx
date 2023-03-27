@@ -33,7 +33,7 @@ export default function Contact() {
     return (
         <div id="contact">
             <div class="section-container">
-                <h4>Contact</h4>
+                <h4 id="contact-title">Contact</h4>
                 <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Let's get in touch!</h2>
                 <div class="contact-details">
                     <div class="form contact-content">
