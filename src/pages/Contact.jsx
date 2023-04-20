@@ -34,16 +34,15 @@ export default function Contact() {
         <div id="contact">
             <div class="section-container">
                 <h4>Contact</h4>
-                <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Let's get in touch!</h2>
                 <div class="contact-details">
                     <div class="form contact-content">
                         <form ref={form} onSubmit={sendEmail} className="contact-form">
                             <label className="form-label">Name</label>
-                            <input type="text" name="user_name" placeholder="Enter your name" />
+                            <input className="input-field" type="text" name="user_name" placeholder="Enter your name" />
                             <label className="form-label">Email</label>
-                            <input type="email" name="user_email" placeholder="Enter your email" />
+                            <input className="input-field" type="email" name="user_email" placeholder="Enter your email" />
                             <label className="form-label">Message</label>
-                            <textarea name="message" placeholder="Hello!" />
+                            <textarea className="input-field" name="message" placeholder="Hello!" />
                             <div class="send-button">
                                 <input type="submit" value="Send me an email" className="send-button-style" />
                             </div>

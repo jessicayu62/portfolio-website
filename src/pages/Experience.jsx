@@ -52,10 +52,10 @@ export default function Experience() {
         <div id='experience'>
             <div class='section-container'>
                 <h4>Experience</h4>
-                <VerticalTimeline lineColor='#D0E8F2'>
+                <VerticalTimeline lineColor='#E2D1F9'>
                     {timeline.map((t, i) => {
-                        const contentStyle = { background: '#D0E8F2', color: '#0e1111' }
-                        const arrowStyle = { borderRight: '7px solid #D0E8F2' }
+                        const contentStyle = { background: '#E2D1F9', color: '#0e1111' }
+                        const arrowStyle = { borderRight: '7px solid #E2D1F9' }
 
                         return (
                             <VerticalTimelineElement
