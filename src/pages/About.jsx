@@ -10,7 +10,7 @@ export default function About() {
                     className="prof-pic" />
                 <div class="about-content">
                     <h4>About Me</h4>
-                    <p>Hey! I'm a third-year at Northeastern University majoring in Computer Science and Mathematics. I
+                    <p>Hey, I'm Jessica! I'm a third-year at Northeastern University majoring in Computer Science and Mathematics. I
                         am seeking to broaden my technical knowledge by applying my in-class learning to real-life
                         experiences.
 
