@@ -20,7 +20,7 @@ export default function Experience() {
     };
 
     const mercariIcon = {
-        icon: <img src={mercari} alt='mercari logo' style={{ paddingLeft: '8px', height: '100%' }} />,
+        icon: <img src={mercari} alt='mercari logo' style={{ paddingLeft: '9px', height: '100%' }} />,
         iconStyle: { boxShadow: '0 0 0 4px transparent' },
     };
 
@@ -28,23 +28,26 @@ export default function Experience() {
         {
             icon: atlassianIcon,
             date: 'May - Aug 2023',
-            title: 'Atlassian',
-            subtitle: 'Incoming Software Engineer Intern',
-            desc: '• TBD ☺',
+            title: 'Incoming Software Engineer Intern',
+            subtitle: 'Atlassian',
+            desc1: '• TBD ☺',
         },
         {
             icon: dispatchIcon,
             date: 'Jan - May 2023',
-            title: 'Dispatch Technologies',
-            subtitle: 'Software Engineer Co-op',
-            desc: '• Implementing new web app features on the front-end using ReactJS based on provided design specifications',
+            title: 'Software Engineer Co-op',
+            subtitle: 'Dispatch Technologies',
+            desc1: '• Developing new web app features using ReactJS and Redux based on provided design specifications',
+            desc2: '• Implementing Update operations using GORM library and adding permission restrictions in Golang to ensure API requests are properly authenticated',
+
         },
         {
             icon: mercariIcon,
             date: 'Jan - Aug 2022',
-            title: 'Mercari',
-            subtitle: 'Software Engineer Co-op',
-            desc: '• Built and operationalized ETL pipelines for third-party data ingestion while collaborating closely with business stakeholders',
+            title: 'Software Engineer Co-op',
+            subtitle: 'Mercari',
+            desc1: '• Rotated through various teams including CRM and User Acquisition (UA) Backend Engineering, Machine Learning, and UA Data Engineering',
+            desc2: '• Built and refactored ETL pipelines utilized for third-party data ingestion while collaborating closely with business stakeholders',
         },
     ];
 
@@ -75,7 +78,8 @@ export default function Experience() {
                                                 {t.subtitle}
                                             </h3>
                                         )}
-                                        {t.desc && <p>{t.desc}</p>}
+                                        {t.desc1 && <p>{t.desc1}</p>}
+                                        {t.desc2 && <p>{t.desc2}</p>}
                                     </React.Fragment>
                                 ) : undefined}
                             </VerticalTimelineElement>
