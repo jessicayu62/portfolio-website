@@ -247,6 +247,15 @@ h7 {
 	font-family: 'Spectral', serif;
 }
 
+.title-style {
+	font-style: normal;
+}
+
+.subtitle-style {
+	font-style: italic;
+	font-size: large;
+}
+
 /* Projects Section */
 #projects {
 	padding: 10vh 0px;
