@@ -27,10 +27,18 @@ export default function Experience() {
     const timeline = [
         {
             icon: atlassianIcon,
-            date: 'May - Aug 2023',
-            title: 'Incoming Software Engineer Intern',
+            date: 'July 2024',
+            title: 'Software Engineer',
             subtitle: 'Atlassian',
             desc1: '• TBD ☺',
+        },
+        {
+            icon: atlassianIcon,
+            date: 'May - Aug 2023',
+            title: 'Software Engineer Intern',
+            subtitle: 'Atlassian',
+            desc1: '• Contributed to development of significant releases for Confluence Databases by modifying React features and implementing feature flags with LaunchDarkly',
+            desc2: '• Conducted demonstrations to product and design teams, actively incorporating feedback to enhance feature functionality',
         },
         {
             icon: dispatchIcon,
@@ -39,7 +47,6 @@ export default function Experience() {
             subtitle: 'Dispatch Technologies',
             desc1: '• Developing new web app features using ReactJS and Redux based on provided design specifications',
             desc2: '• Implementing Update operations using GORM library and adding permission restrictions in Golang to ensure API requests are properly authenticated',
-
         },
         {
             icon: mercariIcon,

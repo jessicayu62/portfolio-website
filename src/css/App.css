@@ -137,7 +137,7 @@ h7 {
 #home {
 	height: 91vh;
 	margin: 0px 10px;
-	background: linear-gradient(-45deg, #9499dadf, #a7abe9df, #E2D1F9);
+	background: linear-gradient(-45deg, #7f87f7df, #c0c4fadf, #e4d3fb);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	box-shadow: 5px 10px 18px #888888;

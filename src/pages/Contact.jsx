@@ -61,7 +61,7 @@ export default function Contact() {
                     </Button>
                 </div>
                 <p><span>Made with <FaHeart className='footer-icon' /> using <FaReact className='footer-icon' /></span></p>
-                <p>© Jessica Yu 2023</p>
+                <p>© Jessica Yu 2024</p>
             </div>
         </div>
     )

@@ -10,9 +10,8 @@ export default function About() {
                     className="prof-pic" />
                 <div class="about-content">
                     <h4>About Me</h4>
-                    <p>Hey, I'm Jessica! I'm a third-year at Northeastern University majoring in Computer Science and Mathematics. I
-                        am seeking to broaden my technical knowledge by applying my in-class learning to real-life
-                        experiences.
+                    <p>Hey, I'm Jessica! I'm a recent Computer Science and Mathematics graduate from Northeastern University. I
+                        am excited to broaden my technical skills as I navigate this industry, while hoping to share my knowledge to those not introducted to tech yet.
 
                         I enjoy seeing my programs come to life as I develop them into visually pleasing,
                         easy-to-use applications.
